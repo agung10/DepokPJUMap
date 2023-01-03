@@ -1,0 +1,14 @@
+.justify {
+    text-align: justify;
+}
+
+#navbar .btn-lapor {
+    color: #fff;
+    padding: 5px 7px;
+    background-color: #4B56D2;
+    border-radius: 5px;
+}
+
+#navbar .btn-lapor:hover {
+    background-color: #472183;
+}
