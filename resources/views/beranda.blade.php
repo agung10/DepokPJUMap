@@ -207,7 +207,7 @@
                         <div class="count-box">
                             <i class="bi bi-journals" style="font-size: 27px;"></i>
                             <span data-purecounter-start="0" data-purecounter-end="{{ count($laporanData) }}" data-purecounter-duration="1" class="purecounter"></span>
-                            <h5>Laporan Kerusakan</h5>
+                            <h5>Total Laporan Masuk</h5>
                         </div>
                     </div>
 
@@ -289,7 +289,7 @@
                         <div class="info-box mb-4">
                             <i class="bx bx-map"></i>
                             <h3>Alamat Kami</h3>
-                            <p style="padding: 0 20px;">Jl. Raya Lenteng Agung No.20-21, RT.4/RW.1, Srengseng Sawah, Kec. Jagakarsa, Jakarta Selatan.</p>
+                            <p style="padding: 0 20px;">Jl. Perhubungan No.50, Jatimulya, Kec. Cilodong, Kota Depok, Jawa Barat</p>
                         </div>
                     </div>
 
