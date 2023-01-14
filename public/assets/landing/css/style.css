@@ -868,8 +868,8 @@ section {
   font-size: 24px;
   background: #4B56D2;
   color: #fff;
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
   line-height: 0;
   border-radius: 50px;
   border: 5px solid #fff;
@@ -1591,18 +1591,20 @@ section {
 }
 
 .contact .php-email-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 7px;
 }
 
 .contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-form textarea, 
+.contact .php-email-form .select2-selection__rendered {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
 .contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
+.contact .php-email-form textarea:focus,
+.contact .php-email-form .select2-selection__rendered:focus {
   border-color: #4B56D2;
 }
 

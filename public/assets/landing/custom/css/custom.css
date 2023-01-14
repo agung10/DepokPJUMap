@@ -1,3 +1,7 @@
+section.leaflet-control-layers-list {
+    padding: 0 !important;
+}
+
 .justify {
     text-align: justify;
 }
@@ -9,6 +13,50 @@
     border-radius: 5px;
 }
 
-#navbar .btn-lapor:hover {
-    background-color: #472183;
+.btn-purple {
+    background-color: #4B56D2 !important;
+    border: #4B56D2 !important
 }
+
+#navbar .btn-lapor:hover, .btn-purple:hover {
+    background-color: #472183 !important;
+}
+
+.image-lapor-css {
+    height: 100px;
+    margin: 0 15px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.error-validate input,
+.error-validate textarea,
+.error-validate .select2-selection__rendered {
+    border-color: #dc3545;
+}
+
+.success-validate input,
+.success-validate textarea,
+.success-validate .select2-selection__rendered {
+    border-color: #278640;
+}
+
+/* Select2 */
+.select2-container--default .select2-selection--single{ border-radius: 0 !important; }
+.select2-container .select2-selection--single { height: 40px !important; border: 1px solid #ced4da !important; }
+.select2-container .select2-selection--single:focus { border-color: #4B56D2 !important; }
+.select2-search__field:focus { outline:none; border-color: #4B56D2 !important; }
+.select2-container--default .select2-selection--single .select2-selection__rendered { line-height: 38px !important; }
+.select2-container--default .select2-selection--single .select2-selection__arrow { height: 38px !important; }
+
+/* Leaflet */
+.leaflet-container { height: 500px; width: 100%; max-width: 100%; max-height: 100%; }
+.info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } 
+.info h4 { margin: 0 0 5px; color: #777; }
+.legend { text-align: left; line-height: 18px; color: #555; } 
+.legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
+
+.leaflet-geosearch-bar { margin: 10px 55px !important; width: 300px !important; }
+.leaflet-touch .leaflet-geosearch-bar form { border: 2px solid rgba(75,86,210, 0.7) !important; }
+input.glass, .leaflet-control-geosearch form { padding: 0 !important; }
